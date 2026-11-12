@@ -1,0 +1,17 @@
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+*.user
+node_modules/
+TestResults/
+
+# Runtime output
+logs/
+wwwroot/uploads/
+
+# Config with secrets (see appsettings.example.json)
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
